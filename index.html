@@ -6,26 +6,35 @@
             }
             .main-screen {
                 display: flex;
+                width: 100%
                 height: 100vh;
+                flex-direction: row;
             }
             .main-screen .-content {
-
+                height: 98%;
+                padding: 128px 75px;
             }
 
-            .main-screen aside {
-                width: 40%;
+            .main-screen aside img {
                 height: 100%;
-                background-color: blue;
+            }
+
+            .hero-title {
+                font-size: 65px;
+                font-weight: 500;
             }
         </style>
     </head>
     <body>
         <section class="main-screen">
             <div class="-content">
-                <h1>Hi I'm Joebert!</h1>
+                <span class="hero-title">
+                    Hi
+                    I'm Joebert!</span>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis nulla accusantium perferendis iste, dolor sit velit! Quisquam animi ad velit, maiores at odio unde, numquam eos qui, facere inventore nesciunt.</p>
             </div>
             <aside>
-
+                <img src="https://github.com/joebs06/joebs06.github.io/blob/master/img/Balgame%20Pic.jpg?raw=true" alt="Joebert Balgame Image">
             </aside>
         </section>
     </body>
