@@ -1,9 +1,44 @@
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
         <link rel="stylesheet" href="assets/ccs/style.css">
+
+        <style>
+            .main-screen {
+                width: 100%;
+                height: 100vh;
+                display: flex;
+                flex-direction: row;
+            }
+
+            .hero-title {
+                font-weight: 500;
+                font-size: 65px;
+            }
+
+            .main-screen .-content {
+                padding: 120px 75px;
+                flex: 1;
+            }
+
+            .main-screen .-content,
+            .main-screen .-right-image-container img {
+                height: 100%;
+            }
+        </style>
     </head>
     <body>
-        <h1>Sample Heading</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nulla delectus non! Repudiandae laboriosam voluptas magnam deserunt quis minima ex, dignissimos nostrum sapiente et quia, qui cupiditate nulla perferendis sunt?</p>
+        <section class="main-screen">
+            <div class="-content">
+                <span class="hero-title">
+                    Hi!
+                    <div>I'm Joebert</div>
+                </span>
+                <p>An aspiring front end web developer.</p>
+            </div>
+            <div class="-right-image-container">
+                <img src="assets/img/Balgame Pic.jpg" alt="Joebert Balgame's Image">
+            </div>
+        </section>
     </body>
 </html>
